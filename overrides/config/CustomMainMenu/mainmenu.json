@@ -138,7 +138,7 @@
             "posX": 390,
             "posY": -20,
             "color": -256,
-			"hoverColor": -256
+			"hoverColor": -256,
             "alignment": "left_center",
             "text": "web:http://platypus.offbeatwit.ch:5681/splash",
             "alignment": "right_center"
