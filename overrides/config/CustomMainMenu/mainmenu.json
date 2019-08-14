@@ -2,34 +2,33 @@
     "images": {
         "title": {
             "image": "mainmenu:textures/logo.png",
-            "posX": 4,
-            "posY": -95,
-            "width": 406,
-            "height": 65,
-            "alignment": "left_center"
+            "posX": -400,
+            "posY": 5,
+            "width": 300,
+            "height": 60,
+            "alignment": "top_right"
         }
     },
-
     "buttons": {
         "join": {
             "text": "Play!",
-            "posX": 4,
+            "posX": -205,
             "posY": -10,
             "width": 200,
             "height": 20,
-            "alignment": "left_center",
+            "alignment": "right_center",
             "action": {
                 "type": "connectToServer",
-                "ip": "husky.best"
+                "ip": "modded.silverderg.best"
             }
         },
         "singleplayer": {
             "text": "",
-            "posX": 4,
+            "posX": -205,
             "posY": 12,
             "width": 20,
             "height": 20,
-            "alignment": "left_center",
+            "alignment": "right_center",
             "texture": "mainmenu:textures/button-singleplayer.png",
             "action": {
                 "type": "openGui",
@@ -38,11 +37,11 @@
         },
         "multiplayer": {
             "text": "",
-            "posX": 26,
+            "posX": -183,
             "posY": 12,
             "width": 20,
             "height": 20,
-            "alignment": "left_center",
+            "alignment": "right_center",
             "texture": "mainmenu:textures/button-multiplayer.png",
             "action": {
                 "type": "openGui",
@@ -51,11 +50,11 @@
         },
         "mods": {
             "text": "",
-            "posX": 48,
+            "posX": -161,
             "posY": 12,
             "width": 20,
             "height": 20,
-            "alignment": "left_center",
+            "alignment": "right_center",
             "texture": "mainmenu:textures/button-mods.png",
             "action": {
                 "type": "openGui",
@@ -64,11 +63,11 @@
         },
         "options": {
             "text": "",
-            "posX": 70,
+            "posX": -139,
             "posY": 12,
             "width": 20,
             "height": 20,
-            "alignment": "left_center",
+            "alignment": "right_center",
             "texture": "mainmenu:textures/button-settings.png",
             "action": {
                 "type": "openGui",
@@ -77,22 +76,22 @@
         },
         "quit": {
             "text": "menu.quit",
-            "posX": 114,
+            "posX": -95,
             "posY": 12,
             "width": 90,
             "height": 20,
-            "alignment": "left_center",
+            "alignment": "right_center",
             "action": {
                 "type": "quit"
             }
         },
         "language": {
             "text": "",
-            "posX": 92,
+            "posX": -117,
             "posY": 12,
             "width": 20,
             "height": 20,
-            "alignment": "left_center",
+            "alignment": "right_center",
             "action": {
                 "type": "openGui",
                 "gui": "languages"
@@ -102,11 +101,10 @@
     "labels": {
         "mojang": {
             "text": "Copyright Mojang AB. Do not distribute!",
-            "posX": -2,
+            "posX": -197,
             "posY": -10,
             "color": -1,
             "alignment": "bottom_right",
-            "anchor": "end",
             "action": {
                 "type": "openGui",
                 "gui": "credits"
@@ -114,11 +112,10 @@
         },
         "credits": {
             "text": "Background image by tsaoshin on e621",
-            "posX": -2,
+            "posX": -197,
             "posY": -20,
             "color": -1,
-            "alignment": "bottom_right",
-            "anchor": "end"
+            "alignment": "bottom_right"
         },
         "fml": {
             "text": "",
@@ -126,22 +123,21 @@
             "posY": -40,
             "color": -1,
             "alignment": "bottom_left"
+        },
+        "splash": {
+            "text": "web:http://platypus.offbeatwit.ch:5681/splash",
+            "alignment": "right_center",
+            "anchor": "end",
+            "posX": -5,
+            "posY": -50,
+            "color": -256,
+            "hoverColor": -256
         }
     },
-
     "other": {
         "background": {
             "image": "mainmenu:textures/background.png",
             "mode": "fill"
-        },
-        "splash-text": {
-            "posX": 390,
-            "posY": -20,
-            "color": -256,
-			"hoverColor": -256,
-            "alignment": "left_center",
-            "text": "web:http://platypus.offbeatwit.ch:5681/splash",
-            "alignment": "right_center"
         }
     }
 }
