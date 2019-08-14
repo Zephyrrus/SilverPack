@@ -171,7 +171,8 @@
       { "fileID": 2699055, "projectID": 228815, "required": true },
       { "fileID": 2678374, "projectID": 225561, "required": true },
       { "fileID": 2759240, "projectID": 243121, "required": true },
-      { "fileID": 2626479, "projectID": 296289, "required": true }
+      { "fileID": 2626479, "projectID": 296289, "required": true },
+      { "fileID": 2757184, "projectID": 283525, "required": true }
     ],
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
